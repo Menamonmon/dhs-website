@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-header {
+  background: #7b241c;
+  display: flex;
+}
+
+.navbar {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-ul {
+  padding: 0;
+  display: flex;
+  margin: 20px auto;
+  width: 80vw;
+}
+
+.nav-ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px auto;
+}
+
+.nav-ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 10vh;
+  height: 10vh;
+}
