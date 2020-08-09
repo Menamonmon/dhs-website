@@ -10,12 +10,6 @@ export function Navbar(props) {
   );
 }
 
-export function NavIcon(props) {
-  return (
-    <img src={props.src} alt="logo" className="nav-icon"/>
-  );
-}
-
 export function NavItem(props) {
   return (
     <li name="nav-item" title={props.title} className="nav-item" key={Math.random().toString()}>
