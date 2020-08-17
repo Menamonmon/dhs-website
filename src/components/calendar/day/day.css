@@ -1,0 +1,46 @@
+.day {
+  color: #E5D4ED;
+  background: #7b241c;
+  margin: 2px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  padding-top: 25%;
+  transition: border .2s, filter .2s;
+}
+
+.day:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+  box-shadow: 1px 1px 7px #E5D4ED;
+}
+
+.day .day-tooltip {
+  min-width: 100px;
+  padding: 5px;
+  background: #E5D4ED;
+  visibility: hidden;
+  border: 1px solid #1D1128;
+  color: #1D1128;
+  border-radius: 6px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 0;
+}
+
+.day-empty {
+  visibility: hidden;
+}
+
+.day:hover .day-tooltip {
+  visibility: visible;
+}
+
+.day-tooltip > a {
+  text-decoration: none;
+  color:#1D1128;
+}
+
+.day-tooltip > a:hover {
+  text-decoration: underline;
+}
